@@ -1,8 +1,16 @@
-# Real-time Pose Estimation and Analysis System
+# Real-time Movement Assessment System
 
-This project showcases a production‑ready pipeline for extracting, analysing and scoring human motion using state‑of‑the‑art deep learning models.  The backend coordinates multiple neural networks written in TensorFlow and scikit‑learn, while a modern Next.js frontend streams pose data directly from the browser.
+This project showcases a pipeline for extracting, analysing and scoring human motion using deep learning models.  The backend coordinates multiple neural networks written in TensorFlow and scikit‑learn, while a modern Next.js frontend streams pose data directly from the browser.
 
 At its core the system performs real‑time pose capture, converts 2D keypoints to 3D skeletons and evaluates exercise quality with a CNN‑LSTM scoring network.  The processing stages are designed for research and extend easily to new movements or additional quality checks.
+
+## My Contributions
+
+My primary focus in this project was the machine learning pipeline, including:
+
+- Development of deep learning models for movement quality assessment
+- Processing and analysis of pose data extracted from video sequences
+- Evaluation and experimentation with different model architectures and approaches
 
 ## Pipeline Overview
 
